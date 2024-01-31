@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Information Technology Community & Company</title>
+
+    <script src="script.js"></script>
+    <script src="countdown.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+    
+    <nav>
+      <img src="Assets/images/logo.png" alt="" />
+      <div class="navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+
+          <li><a href="#">Services</a></li>
+          <li><a href="#career-heading">Career</a></li>
+
+          <li><a href="#course">Courses</a></li>
+          <li><a href="#contact">Contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Home-->
+
+    <section id="home">
+      <h2>Make Creativity Work For Your brand with DevNest</h2>
+      <p>
+        We Help You To Build High-Quality Digital Solutions And Products As Well
+        As Deliver A Wide Range Of Related Professional Services. We Are
+        Providing World-Class Service To Our Clients.
+      </p>
+      <div class="btn">
+        <a class="blue" href="#">Learn More</a>
+      </div>
+    </section>
+    <!--services-->
+      <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="section-head col-sm-12" id="service">
+            <h1>Our Services</h1>
+            <p>We help you to build high-quality digital solutions and products as well as deliver a wide range of related professional services. We are providing world-class service to our clients.
+              </p>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
+              <h6>Web App Development</h6>
+              <p>Our Custom Web Development Services Include Both Front-End And Back-End Development. Whether It Is Enhancing An Existing App Or Architecting An Enterprise App, Our Developers Are Up For The Challenge.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
+              <h6>Mobile App Development</h6>
+              <p>We Have Expertise In Creating Multi-Platform Mobile App Solutions For Both Android And IOS Devices. Using PhoneGap, Xamarin, And React Native, We Offer Custom Mobile App That Runs Smoothly On Multiple Platforms.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-magic"></i></span>
+              <h6>Digital Marketing</h6>
+              <p>The digital marketing services that we provide have their own set of charms. By taking our digital marketing services, our clients will be able to increase visibility and engage with their customers at the online platform.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+    <!--features-->
+
+    <section id="features">
+      <h1>Innovative Offfering</h1>
+      <p>
+        Welcome to our realm of Innovative Offerings, where we redefine the
+        boundaries of excellence
+      </p>
+      <div class="fea-base">
+        <div class="fea-box">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Scholar Assistance Program</h3>
+          <p>
+            Our Scholar Assistant Program is a beacon of educational
+            empowerment, providing dedicated support to promising scholars,
+            breaking down financial barriers and fostering academic excellence
+          </p>
+        </div>
+        <div class="fea-box">
+          <i class="fas fa-certificate"></i>
+          <h3>Validation Document</h3>
+          <p>
+            The Validation Document serves as a concrete affirmation of the
+            recognized competence and proficiency achieved, underscoring the
+            individual's commitment to excellence in their field.
+          </p>
+        </div>
+
+        <div class="fea-box">
+          <i class="fas fa-award"></i>
+          <h3>Global certification</h3>
+          <p>
+            A Global Certification signifies a universally recognized standard
+            of expertise, validating the user's capabilities on an international
+            scale and emphasizing their commitment to excellence in their
+            respective field.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Careers-->
+    <section id="career-heading" class="career-heading">
+      <h1 class="heading">Career</h1>
+      <p>Job Opening in IT Company. Apply Now!</p>
+  </section>
+  <div class="career">
+      <div class="career-form">
+          <form action="./careers.php" method="POST" enctype="multipart/form-data">
+              <input type="text" name="name" placeholder="Name" class="career-form-txt" required>
+              <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="Contact number" maxlength="10" class="career-form-phone">
+              <input type="email" name="email" placeholder="Email" class="career-form-email" required>
+              <div class="radio-class">
+                  <h2 class="name">Apply For Which Post?</h2>
+              <label class="radio">
+                <input class="radio-one" type="radio" checked="checked" name="status" value="Web Designer">
+                <span class="checkmark"></span>
+                Web Designer
+              </label>
+              <label class="radio">
+                <input class="radio-two" type="radio" name="status" value="Web Developer">
+                <span class="checkmark"></span>
+                Web Developer
+              </label>
+              <label class="radio">
+                <input class="radio-three" type="radio" name="status" value="Mobile App Designer">
+                <span class="checkmark"></span>
+                Mobile App Designer
+              </label>
+              <label class="radio">
+                  <input class="radio-four" type="radio" name="status" value="Mobile App Developer">
+                  <span class="checkmark"></span>
+                  Mobile App Developer
+                </label>
+              <label class="radio">
+                <input class="radio-five" type="radio"  name="status" value="Digital Marketer">
+                <span class="checkmark"></span>
+                Digital Marketer
+              </label>
+              </div>
+              <input type="number" id="experience" name="experience" required placeholder="Years of Experience" class="career-form-experience">
+              <textarea placeholder="Other Details" name="details" class="career-form-txtarea" required></textarea>
+
+              <input type="submit" value="Submit" name="submit" class="career-form-btn">
+          </form>
+      </div>
+  </div>
+
+    <!-- Courses -->
+    <section id="course">
+      <h1>Our Courses</h1>
+      <p>
+        Stay ahead of the curve with content that reflects the latest trends and
+        technologies in your field
+      </p>
+     <div class="course-box">
+
+     <div class="courses">
+      <img src="Assets/images/c6.png" alt="">
+      <div class="details">
+        <span>Updated 30/10/23</span>
+        <h6>Cobol Beginners Course</h6>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <span>(469)</span>
+        </div>
+      </div>
+      <div class="cost">
+        $54.99
+      </div>
+     </div>
+     <div class="courses">
+      <img src="Assets/images/c1.jpg" alt="">
+      <div class="details">
+        <span>Updated 30/10/23</span>
+        <h6>Javascript Beginners Course</h6>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <span>(326)</span>
+        </div>
+      </div>
+      <div class="cost">
+        $54.99
+      </div>
+     </div>
+
+     <div class="courses">
+      <img src="Assets/images/c2.webp" alt="">
+      <div class="details">
+        <span>Updated 30/10/23</span>
+        <h6>Dart & Flutter Advanced Course</h6>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <span>(200)</span>
+        </div>
+      </div>
+      <div class="cost">
+        $54.99
+      </div>
+     </div>
+
+     <div class="courses">
+      <img src="Assets/images/c3.png" alt="">
+      <div class="details">
+        <span>Updated 30/10/23</span>
+        <h6>Kotlin Beginners Course</h6>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <span>(126)</span>
+        </div>
+      </div>
+      <div class="cost">
+        $54.99
+      </div>
+     </div>
+
+     <div class="courses">
+      <img src="Assets/images/c4.jpg" alt="">
+      <div class="details">
+        <span>Updated 30/10/23</span>
+        <h6>Machine Learning using Python Course</h6>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <span>(626)</span>
+        </div>
+      </div>
+      <div class="cost">
+        $54.99
+      </div>
+     </div>
+
+     <div class="courses">
+      <img src="Assets/images/c5.png" alt="">
+      <div class="details">
+        <span>Updated 30/10/23</span>
+        <h6>c# programming essentials Course</h6>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <span>(76)</span>
+        </div>
+      </div>
+      <div class="cost">
+        $54.99
+      </div>
+     </div>
+     </div>
+    </section>
+
+    <!-- Registration -->
+    
+
+    <section id="registration">
+      <div class="reminder">
+           <p>Get 200+ Online IT Related Courses for Free </p>
+           <h1>Register To Get It</h1>
+           <div class="time">
+            <div class="date">
+              10 <br> Days
+            </div>
+            <div class="date">
+              22 <br> Hours
+            </div>
+            <div class="date">
+              54 <br> Minutes
+            </div>
+            <div class="date">
+              36 <br> Seconds
+            </div>
+           </div>
+      </div>
+
+      
+      <div class="form">
+        <h3>Sign Up for Free</h3>
+        <input type="text" placeholder="Name" name="" id="nameInput">
+        <div class="alert" id="nameAlert"></div>
+
+        <input type="text" placeholder="Email Address" name="" id="emailInput">
+        <div class="alert" id="emailAlert"></div>
+
+        <input type="text" placeholder="phone Number" name="" id="phoneInput">
+        <div class="alert" id="phoneAlert"></div>
+
+        <div class="btn">
+          <a class="yellow" href="#" id="submitButton" onclick="return submitForm(event)">Submit Form</a>
+          <div id="validationMessage"></div>
+          <div id="successMessage"></div> 
+        </div>
+      </div>
+    </section>
+
+    <!-- Profiles -->
+    <section id="experts">
+      <h1>Community Experts</h1>
+      <p>
+        Our community experts drive innovation and growth by seamlessly integrating diverse knowledge and hands-on experience within our dynamic and collaborative ecosystem
+      </p>
+      <div class="expert-box">
+  
+        <div class="profile">
+          <img src="Assets/images/pro1.jpg" alt="">
+          <h6>Joel Irungu</h6>
+          <p>Software Developer</p>
+          <div class="pro-links">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+          
+          </div>
+        </div>
+  
+        <div class="profile">
+          <img src="Assets/images/pro1.jpg" alt="">
+          <h6>Joel Irungu</h6>
+          <p>Software Developer</p>
+          <div class="pro-links">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </div>
+  
+        <div class="profile">
+          <img src="Assets/images/pro1.jpg" alt="">
+          <h6>Joel Irungu</h6>
+          <p>Software Developer</p>
+          <div class="pro-links">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </div>
+  
+        <div class="profile">
+          <img src="Assets/images/pro1.jpg" alt="">
+          <h6>Joel Irungu</h6>
+          <p>Software Developer</p>
+          <div class="pro-links">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </div>
+  
+      </div>
+    </section>
+
+    <!--contacts-->
+    <section id="contact" class="contact">
+      <h1 class="heading">Get in Touch</h1>
+  </section>
+  <div class="contact-in">
+      <div class="contact-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30711243.17762776!2d64.4398422293091!3d20.011408266548177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1644684739958!5m2!1sen!2sin" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="contact-form">
+          <form action="./contactme.php" method="POST">
+              <input type="text" name="name" placeholder="Name" class="contact-form-txt" required>
+              <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="Contact number" maxlength="10" class="contact-form-phone">
+              <input type="email" name="email" placeholder="Email" class="contact-form-email" required>
+              <textarea placeholder="Your Message" name="message" class="contact-form-txtarea" required></textarea>
+              <input type="submit" value="Submit" name="submit" class="contact-form-btn">
+          </form>
+      </div>
+      </div>
+      </section>
+
+    <!-- footer-->
+    <footer>
+      <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li>
+      </div>
+
+      <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li>
+      </div>
+
+      <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li>
+      </div>
+
+      <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>Stay informed with our latest updates and exclusive content delivered straight to your inbox,</p>
+        <div class="subscribe">
+          <input type="text" placeholder="Your Email address">
+          <a href="#" class="yellow">SUBSCRIBE</a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright © 2023 IT Community & Company Website. All Rights Reserved.</p>
+        <div class="pro-links">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+    </footer>
+  
+  </body>
+
+  <!--javscript-->
+
+  <script>
+
+document.addEventListener('DOMContentLoaded', function () {
+    const navLinks = document.querySelectorAll('.navigation ul li a');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+
+            window.scrollTo({
+                top: targetElement.offsetTop - document.querySelector('nav').offsetHeight,
+                behavior: 'smooth' // Add smooth scrolling behavior
+            });
+        });
+    });
+});
+
+
+
+
+    $(document).ready(function(){
+
+$('.fa-bars').click(function(){
+   $(this).toggleClass('fa-times');
+   $('.navbar').toggleClass('nav-toggle');
+});
+
+$(window).on('load scroll',function(){
+   $('.fa-bars').removeClass('fa-times');
+   $('.navbar').removeClass('nav-toggle');
+
+   if($(window).scrollTop()>35)
+   {
+       $('.header').css({'background':'#002e5f','box-shadow':'0 .2rem .5rem rgba(0,0,0,.4)'});
+   }
+   else
+   {
+       $('.header').css({'background':'none','box-shadow':'none'});
+   }
+});
+
+const counters = document.querySelectorAll('.counter');
+const speed = 120;
+counters.forEach(counter => {
+const updateCount = () => {
+const target = +counter.getAttribute('data-target');
+const count = +counter.innerText;
+const inc = target / speed;
+if (count < target) {
+ counter.innerText = count + inc;
+ setTimeout(updateCount, 1);
+} else {
+ counter.innerText = target;
+}
+};
+updateCount();
+});
+
+(function ($) {
+"use strict";
+
+$(".clients-carousel").owlCarousel({
+   autoplay: true,
+   dots: true,
+   loop: true,
+   responsive: { 0: {items: 2}, 768: {items: 4}, 900: {items: 6} }
+});
+
+$(".testimonials-carousel").owlCarousel({
+   autoplay: true,
+   dots: true,
+   loop: true,
+   responsive: { 0: {items: 1}, 576: {items: 2}, 768: {items: 3}, 992: {items: 4} }
+});
+
+})(jQuery);
+
+$(window).scroll(function () {
+if ($(this).scrollTop() > 100) {
+   $('.back-to-top').fadeIn('slow');
+} else {
+   $('.back-to-top').fadeOut('slow');
+}
+});
+$('.back-to-top').click(function () {
+$('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+return false;
+});
+
+$('.accordion-header').click(function(){
+$('.accordion .accordion-body').slideUp(500);
+$(this).next('.accordion-body').slideDown(500);
+$('.accordion .accordion-header span').text('+');
+$(this).children('span').text('-');
+});
+
+});
+
+    document.addEventListener('DOMContentLoaded', function () {
+  // Navigation scrolling
+  const navLinks = document.querySelectorAll('.navigation ul li a');
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      const targetId = this.getAttribute('href').substring(1);
+      const targetElement = document.getElementById(targetId);
+
+      window.scrollTo({
+        top: targetElement.offsetTop - document.querySelector('nav').offsetHeight,
+        behavior: 'smooth'
+      });
+    });
+  });
+
+
+  const submitFormButton = document.querySelector('#registration .form a.yellow');
+  const nameInput = document.querySelector('#registration .form input[placeholder="Name"]');
+  const emailInput = document.querySelector('#registration .form input[placeholder="Email Address"]');
+  const phoneInput = document.querySelector('#registration .form input[placeholder="Phone Number"]');
+
+  submitFormButton.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    const nameValue = nameInput.value;
+    const emailValue = emailInput.value;
+    const phoneValue = phoneInput.value;
+
+    
+    if (nameValue && emailValue && phoneValue) {
+      alert(`Form submitted:\nName: ${nameValue}\nEmail: ${emailValue}\nPhone: ${phoneValue}`);
+      
+    } else {
+      alert('Please fill in all fields.');
+    }
+  });
+
+  
+});
+
+const registrationForm = document.querySelector('#registration .form');
+
+registrationForm.addEventListener('submit', function (e) {
+  e.preventDefault();
+});
+
+const navigationLinks = document.querySelectorAll('nav .navigation ul li a');
+
+navigationLinks.forEach(link => {
+  link.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    const targetId = this.getAttribute('href').substring(1);
+    const targetSection = document.getElementById(targetId);
+
+    if (targetSection) {
+      window.scrollTo({
+        top: targetSection.offsetTop - document.querySelector('nav').offsetHeight,
+        behavior: 'smooth'
+      });
+    }
+  });
+});
+const countdownTimer = document.querySelector('#registration .reminder .time');
+
+function updateCountdown() {
+  const endDate = new Date('2024-11-20T00:00:00Z'); // Update the year to 2024
+  const now = new Date();
+
+  const timeDifference = endDate - now;
+
+  const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+  countdownTimer.innerHTML = `
+    <div class="date">${days}<br>Days</div>
+    <div class="date">${hours}<br>Hours</div>
+    <div class="date">${minutes}<br>Minutes</div>
+    <div class="date">${seconds}<br>Seconds</div>
+  `;
+}
+
+setInterval(updateCountdown, 1000);
+
+
+function validateInput(fieldName, inputField, allowedChars, alertElement) {
+      const inputValue = inputField.value;
+
+      if (!allowedChars.test(inputValue)) {
+        alertElement.textContent = `Please enter a valid ${fieldName}.`;
+        alertElement.style.display = 'block';
+        document.getElementById('container').style.overflow = 'hidden'; // Set overflow to hidden on the container
+        return false; // Return false if validation fails
+      } else {
+        alertElement.style.display = 'none';
+        document.getElementById('container').style.overflow = 'auto'; // Set overflow to auto on the container
+        return true; // Return true if validation passes
+      }
+    }
+
+    function validateInput(fieldName, inputField, allowedChars, alertElement) {
+  console.log('Validating input:', fieldName);
+
+  const inputValue = inputField.value;
+
+  if (!allowedChars.test(inputValue)) {
+    alertElement.textContent = `Please enter a valid ${fieldName}.`;
+    alertElement.style.display = 'block';
+    document.getElementById('validationMessage').textContent = ''; // Clear validation message
+    return false; // Return false if validation fails
+  } else {
+    alertElement.textContent = ''; // Clear alert message
+    alertElement.style.display = 'none';
+    return true; // Return true if validation passes
+  }
+}
+
+function submitForm(event) {
+  event.preventDefault(); // Prevent the default form submission
+
+  const nameInput = document.getElementById('nameInput');
+  const emailInput = document.getElementById('emailInput');
+  const phoneInput = document.getElementById('phoneInput');
+
+  const nameAlert = document.getElementById('nameAlert');
+  const emailAlert = document.getElementById('emailAlert');
+  const phoneAlert = document.getElementById('phoneAlert');
+
+  const validationMessage = document.getElementById('validationMessage'); // Validation message element
+  const successMessage = document.getElementById('successMessage'); // Success message element
+
+  const isNameValid = validateInput('name', nameInput, /^[A-Za-z]+$/, nameAlert);
+  const isEmailValid = validateInput('email address', emailInput, /^[A-Za-z0-9._@-]+$/, emailAlert);
+  const isPhoneValid = validateInput('phone number', phoneInput, /^[0-9]+$/, phoneAlert);
+
+  // Check if all validations pass before updating the validation message
+  if (isNameValid && isEmailValid && isPhoneValid) {
+    validationMessage.textContent = ''; // Clear validation message
+
+    // Set the success message
+    successMessage.textContent = 'Form submitted successfully!';
+    successMessage.style.display = 'block';
+
+    // Clear validation messages
+    nameAlert.textContent = '';
+    emailAlert.textContent = '';
+    phoneAlert.textContent = '';
+
+    // Automatically clear success message after a delay (e.g., 3 seconds)
+    setTimeout(() => {
+      successMessage.textContent = '';
+      successMessage.style.display = 'none';
+    }, 3000);
+  } else {
+    successMessage.textContent = ''; // Clear success message
+    successMessage.style.display = 'none';
+
+    validationMessage.textContent = 'Please fix the validation errors before submitting.';
+  }
+}
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const submitButton = document.getElementById('submitButton');
+    submitButton.addEventListener('click', submitForm);
+});
+
+  </script>
+</html>
